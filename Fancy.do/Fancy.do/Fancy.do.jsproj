@@ -1,0 +1,186 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|AnyCPU">
+      <Configuration>Debug</Configuration>
+      <Platform>AnyCPU</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|ARM">
+      <Configuration>Debug</Configuration>
+      <Platform>ARM</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x86">
+      <Configuration>Debug</Configuration>
+      <Platform>x86</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|AnyCPU">
+      <Configuration>Release</Configuration>
+      <Platform>AnyCPU</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|ARM">
+      <Configuration>Release</Configuration>
+      <Platform>ARM</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x86">
+      <Configuration>Release</Configuration>
+      <Platform>x86</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>227524a1-0a43-4fac-ac93-2b594c19ed79</ProjectGuid>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(VisualStudioVersion)' == '' or '$(VisualStudioVersion)' &lt; '11.0'">
+    <VisualStudioVersion>11.0</VisualStudioVersion>
+  </PropertyGroup>
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\$(WMSJSProjectDirectory)\Microsoft.VisualStudio.$(WMSJSProject).Default.props" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\$(WMSJSProjectDirectory)\Microsoft.VisualStudio.$(WMSJSProject).props" />
+  <PropertyGroup>
+    <TargetPlatformIdentifier>Windows</TargetPlatformIdentifier>
+    <TargetPlatformVersion>8.0</TargetPlatformVersion>
+    <DefaultLanguage>en-US</DefaultLanguage>
+    <PackageCertificateKeyFile>Fancy.do_TemporaryKey.pfx</PackageCertificateKeyFile>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppxManifest Include="package.appxmanifest">
+      <SubType>Designer</SubType>
+    </AppxManifest>
+    <Content Include=".gitignore" />
+    <Content Include=".travis.yml" />
+    <Content Include="css\print\paper.css" />
+    <Content Include="css\print\pdf.css" />
+    <Content Include="css\reveal.css" />
+    <Content Include="css\reveal.min.css" />
+    <Content Include="css\T_T.css" />
+    <Content Include="css\theme\beige.css" />
+    <Content Include="css\theme\default.css" />
+    <Content Include="css\theme\moon.css" />
+    <Content Include="css\theme\night.css" />
+    <Content Include="css\theme\README.md" />
+    <Content Include="css\theme\serif.css" />
+    <Content Include="css\theme\simple.css" />
+    <Content Include="css\theme\sky.css" />
+    <Content Include="css\theme\solarized.css" />
+    <Content Include="css\theme\source\beige.scss" />
+    <Content Include="css\theme\source\default.scss" />
+    <Content Include="css\theme\source\moon.scss" />
+    <Content Include="css\theme\source\night.scss" />
+    <Content Include="css\theme\source\serif.scss" />
+    <Content Include="css\theme\source\simple.scss" />
+    <Content Include="css\theme\source\sky.scss" />
+    <Content Include="css\theme\source\solarized.scss" />
+    <Content Include="css\theme\template\mixins.scss" />
+    <Content Include="css\theme\template\settings.scss" />
+    <Content Include="css\theme\template\theme.scss" />
+    <Content Include="default.html" />
+    <Content Include="Gruntfile.js" />
+    <Content Include="images\addnew.png" />
+    <Content Include="images\book.png" />
+    <Content Include="images\calendar.png" />
+    <Content Include="images\day.png" />
+    <Content Include="images\grade.png" />
+    <Content Include="images\heart.png" />
+    <Content Include="images\house.png" />
+    <Content Include="images\key.png" />
+    <Content Include="images\light.png" />
+    <Content Include="images\logo.png" />
+    <Content Include="images\meal.png" />
+    <Content Include="images\meeting.png" />
+    <Content Include="images\mess.png" />
+    <Content Include="images\office.png" />
+    <Content Include="images\ok.png" />
+    <Content Include="images\phone.png" />
+    <Content Include="images\smalllogo.png" />
+    <Content Include="images\splashscreen.png" />
+    <Content Include="images\storelogo.png" />
+    <Content Include="images\time.png" />
+    <Content Include="images\watch.png" />
+    <Content Include="img\aniversary.png" />
+    <Content Include="img\banquet.png" />
+    <Content Include="img\custom.png" />
+    <Content Include="img\finalsmall.png" />
+    <Content Include="img\finalsplash.png" />
+    <Content Include="img\finalsquare.png" />
+    <Content Include="img\finalwide.png" />
+    <Content Include="img\games.png" />
+    <Content Include="img\gift.png" />
+    <Content Include="img\homework.png" />
+    <Content Include="img\jizhang.png" />
+    <Content Include="img\labe.png" />
+    <Content Include="img\music.png" />
+    <Content Include="img\special.png" />
+    <Content Include="img\waterflower.png" />
+    <Content Include="js\default.js" />
+    <Content Include="css\default.css" />
+    <Content Include="js\jquery-1.8.2.min.js" />
+    <Content Include="js\jquery.hammer.js" />
+    <Content Include="js\reveal.js" />
+    <Content Include="js\reveal.min.js" />
+    <Content Include="js\script.js" />
+    <Content Include="js\T-T.js" />
+    <Content Include="js\temp.js" />
+    <Content Include="lib\css\zenburn.css" />
+    <Content Include="lib\font\league_gothic-webfont.eot" />
+    <Content Include="lib\font\league_gothic-webfont.svg" />
+    <Content Include="lib\font\league_gothic-webfont.ttf" />
+    <Content Include="lib\font\league_gothic-webfont.woff" />
+    <Content Include="lib\font\league_gothic_license" />
+    <Content Include="lib\js\classList.js" />
+    <Content Include="lib\js\head.min.js" />
+    <Content Include="lib\js\html5shiv.js" />
+    <Content Include="LICENSE" />
+    <Content Include="NotificationsExtensions.winmd" />
+    <Content Include="package.json" />
+    <Content Include="plugin\highlight\highlight.js" />
+    <Content Include="plugin\markdown\example.html" />
+    <Content Include="plugin\markdown\example.md" />
+    <Content Include="plugin\markdown\markdown.js" />
+    <Content Include="plugin\markdown\marked.js" />
+    <Content Include="plugin\multiplex\client.js" />
+    <Content Include="plugin\multiplex\index.js" />
+    <Content Include="plugin\multiplex\master.js" />
+    <Content Include="plugin\notes-server\client.js" />
+    <Content Include="plugin\notes-server\index.js" />
+    <Content Include="plugin\notes-server\notes.html" />
+    <Content Include="plugin\notes\notes.html" />
+    <Content Include="plugin\notes\notes.js" />
+    <Content Include="plugin\postmessage\example.html" />
+    <Content Include="plugin\postmessage\postmessage.js" />
+    <Content Include="plugin\print-pdf\print-pdf.js" />
+    <Content Include="plugin\remotes\remotes.js" />
+    <Content Include="plugin\search\search.js" />
+    <Content Include="plugin\zoom-js\zoom.js" />
+    <Content Include="README.md" />
+    <Content Include="test.txt" />
+    <None Include="Fancy.do_TemporaryKey.pfx" />
+  </ItemGroup>
+  <ItemGroup>
+    <SDKReference Include="Microsoft.WinJS.1.0, Version=1.0" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="NotificationsExtensions">
+      <HintPath>..\..\timepicker\timepicker\NotificationsExtensions.winmd</HintPath>
+      <IsWinMDFile>true</IsWinMDFile>
+    </Reference>
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\$(WMSJSProjectDirectory)\Microsoft.VisualStudio.$(WMSJSProject).targets" />
+  <!-- To modify your build process, add your task inside one of the targets below then uncomment
+       that target and the DisableFastUpToDateCheck PropertyGroup. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  <PropertyGroup>
+    <DisableFastUpToDateCheck>true</DisableFastUpToDateCheck>
+  </PropertyGroup>
+  -->
+</Project>

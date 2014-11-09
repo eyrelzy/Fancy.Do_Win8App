@@ -1,0 +1,426 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="description" content="A framework for easily creating beautiful presentations using HTML">
+    <meta name="author" content="Hakim El Hattab">
+
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Fancy.do</title>
+
+    <!-- WinJS references -->
+    <link href="//Microsoft.WinJS.1.0/css/ui-dark.css" rel="stylesheet" />
+    <script src="//Microsoft.WinJS.1.0/js/base.js"></script>
+    <script src="//Microsoft.WinJS.1.0/js/ui.js"></script>
+
+    <!-- Fancy.do references -->
+    <link href="/css/default.css" rel="stylesheet" />
+    <script src="/js/default.js"></script>
+    <link rel="stylesheet" href="css/reveal.css">
+    <link rel="stylesheet" href="css/theme/default.css" id="theme">
+    <link rel="stylesheet" href="css/T_T.css">
+
+    <script src="/js/jquery-1.8.2.min.js"></script>
+    <script src="/js/jquery.hammer.js"></script>
+
+    <script src="/js/temp.js"></script>
+    <script src="/js/script.js"></script>
+    <script src="/js/T-T.js"></script>
+</head>
+<body>
+    <div class="reveal">
+
+        <!-- Any section element inside of this container is displayed as a slide -->
+        <div class="slides">
+            <section>
+                <div class="respect">
+                    <aside id="help" class="sidebar invisible" style="display: hidden;">
+                        <h3 style="text-align:center;">Fancy.Do Help:</h3>
+                        <table>                           
+                            <tbody>
+                                <tr>
+                                    <th style="font-size:30px;">How to switch pages?</th>
+                                    <td style="font-size:20px;">Click navigation on the bottom right.
+                                        <br />Use&nbsp;&nbsp;&larr;&nbsp;&rarr;&uarr;&nbsp;&darr;&nbsp;
+                                        <br />Esc to show preview for all the pages.
+                                        <br />Tablet PC supports navigation only.
+                                        <br />In each view, swipe left or right to next page.
+                                    </td>
+                                </tr>
+                                <tr><td><br /></td></tr>
+                                <tr>
+                                    
+                                    <th style="font-size:30px;">How to add a task to do?</th>
+                                    <td style="font-size:20px;">Click(tab on tablet PC) the '+' block or an empty block or click template task blocks.</td>
+                                </tr>
+                                <tr><td><br /></td></tr>
+                                <tr>
+                                    <th style="font-size:30px;">How to make custom design template tasks?</th>
+                                    <td style="font-size:20px;">We already have two template tasks, you may input other tasks to update your template task library.
+                                        <br />
+                                        Swipe up to check all and swipe left on each item to delete, down to cancel.
+                                        <br />
+                                    </td>
+                                </tr>
+                                <tr><td><br /></td></tr>
+                                <tr>
+                                    <th style="font-size:30px;">How to check all your to-do list?</th>
+                                    <td style="font-size:20px;"> 
+                                        
+                                        <br />Swipe up to add a new location in Location View, down to cancel. So does the File View.
+                                        <br />The tasks shown are colored referred to level settings.
+                                        <br /><br /><b style="font-size:25px;">Click each title to return.</b>
+                                        <br />
+
+                                        <br />
+                                    </td>
+                                </tr>
+                                 
+                            </tbody>
+                        </table>
+                    </aside>
+                </div>
+
+            </section>
+
+
+
+            <section>
+                <section data-background="#bb002e">
+                    <!--添加待办事项条目-->
+                    <div class="respect" id="addGTD">
+                        <div class="block" id="agb0"></div>
+                        <div class="block" id="agb1"></div>
+                        <div class="block" id="agb2"></div>
+                        <div class="block" id="agb3"></div>
+                        <img src="images/addnew.png" class="addnew" />
+                        <div class="block" id="agb4"></div>
+                        <div class="block" id="agb5"></div>
+                        <div class="block" id="agb6"></div>
+                        <div class="block" id="agb7"></div>
+                    </div>
+                    <!--编辑待办事项条目-->
+                    <div class="respect" id="manageGTD" style="overflow: scroll;">
+                        <div class="magline">
+                            <div id="magname">Name</div>
+                            <input id="magnamein" />
+                        </div>
+                        <div class="magline">
+                            <div id="maglevel">Level</div>
+                            <div id="maglevelin" data-win-control="WinJS.UI.Rating"></div>
+                        </div>
+
+                        <div class="magline">
+                            <div id="magloc" class="magline">Location</div>
+                            <select id="maglocin"></select>
+                        </div>
+
+                        <div class="magline">
+                            <img class="magtimgimg" src="images/calendar.png" />
+                            <div data-win-control="WinJS.UI.DatePicker" id="magdate"></div>
+                            <div id="magtime" data-win-control="WinJS.UI.TimePicker"></div>
+                        </div>
+
+                        <div class="magline">
+                            <div id="magimg">
+                                Image
+                                <img id="magimgdis" src="images/time.png" />
+                                <!--<img id="magimgdis" src="E:/news1/UpLoad/43728-106.jpg"/>-->
+                            </div>
+                            <select id="magimgin">
+                            </select>
+                        </div>
+
+                        <div class="magline">
+                            <div id="magfile">File</div>
+                            <select id="magfilein">
+                            </select>
+                        </div>
+                        <div id="magrem" class="magline">Remark</div>
+                        <textarea id="magremin"></textarea>
+
+
+                        <div id="magok">OK</div>
+                        <div id="magcan">CANCEL</div>
+                    </div>
+                </section>
+
+                <section data-background="#fe0084">
+                    <!--添加模板-->
+                    <div class="respect" id="addstyle">
+                        <div id="adshead">Add Style</div>
+                        <div class="adsline">
+                            <div id="adsname">StyleName</div>
+                            <input id="adsnamein" />
+                        </div>
+                        <div class="adsline">
+                            <div id="adsimg">
+                                Image
+                                    <img id="adsimgdis" src="images/time.png" />
+                            </div>
+                            <select id="adsimgin">
+                            </select>
+                        </div>
+
+
+
+                        <div id="adsok">OK</div>
+                    </div>
+                    
+                    <!--删除模板-->
+                    <div id="delestyle" class="respect" style="overflow: scroll;">
+                    </div>
+                </section>
+
+
+            </section>
+
+
+            <section>
+
+                <section data-background="#89ba10">
+                    <!--按时间浏览-->
+                    <div id="timeview" class="respect">
+                        <div id="tvtoday" class="tvline">Today</div>
+                        <div id="tvtomo" class="tvline">Tomorrow</div>
+                        <div id="tvfutu" class="tvline">Future</div>
+                        <div id="tvhis" class="tvline">History</div>
+                        <div id="tvdis">
+                            <div class="tvblock" id="tvb0"></div>
+                            <div class="tvblock" id="tvb1"></div>
+                            <div class="tvblock" id="tvb2"></div>
+                            <div class="tvblock" id="tvb3"></div>
+                            <div class="tvblock" id="tvb4"></div>
+                            <div class="tvblock" id="tvb5"></div>
+                        </div>
+                    </div>
+                    <!--编辑展示GTD条目-->
+                    <div id="disGTD" class="respect" style="overflow: scroll;">
+                        <div class="disgline">
+                            <div id="disgname">Name</div>
+                            <input id="disgnamein" />
+                        </div>
+                        <div class="disgline">
+                            <div id="disglevel">Level</div>
+                            <div id="disglevelin" data-win-control="WinJS.UI.Rating"></div>
+                        </div>
+                        <div class="disgline">
+                            <div id="disgloc" class="disgline">Location</div>
+                            <select id="disglocin">
+                            </select>
+                        </div>
+
+
+                        <div class="disgline">
+                            <img class="disgtimgimg" src="images/calendar.png" />
+                            <div data-win-control="WinJS.UI.DatePicker" id="disgdate"></div>
+                            <div id="disgtime" data-win-control="WinJS.UI.TimePicker"></div>
+                        </div>
+
+                        <div class="disgline">
+                            <div id="disgimg">
+                                Image
+                            <img id="disgimgdis" src="images/time.png" />
+                            </div>
+                            <select id="disgimgin">
+                            </select>
+                        </div>
+                        <div class="disgline">
+                            <div id="disgfile">File</div>
+                            <select id="disgfilein">
+                            </select>
+                        </div>
+                        <div id="disgrem" class="disgline">Remark</div>
+                        <textarea id="disgremin"></textarea>
+                        <div id="disgok">OK</div>
+                        <div id="disgcan">CANCEL</div>
+                        <div id="disgdele">DELETE</div>
+                    </div>
+
+                </section>
+
+                <section data-background="#b861c9">
+                    <!--按地点浏览-->
+                    <div id="locview" class="respect">
+                        <div id="lvhead">LocationView</div>
+                        <div id="lvb0" class="lvb"></div>
+                        <div id="lvb1" class="lvb"></div>
+                        <div id="lvb2" class="lvb"></div>
+                        <div id="lvb3" class="lvb"></div>
+                        <div id="lvb4" class="lvb"></div>
+                        <div id="lvb5" class="lvb"></div>
+
+                    </div>
+                    <div id="lvdis" class="respect">
+                        <div id="lvdishead"></div>
+                        <div id="lvd0" class="lvd"></div>
+                        <div id="lvd1" class="lvd"></div>
+                        <div id="lvd2" class="lvd"></div>
+                        <div id="lvd3" class="lvd"></div>
+                        <div id="lvd4" class="lvd"></div>
+                        <div id="lvd5" class="lvd"></div>
+                    </div>
+                    <div id="addloc" class="respect">
+                        <div id="alhead">Add Location</div>
+                        <input id="addlocin" />
+                        <div id="alok">OK</div>
+                        <div id="alcan">CANCEL</div>
+                    </div>
+                    <!--GTD展示编辑框 1-->
+                    <div id="disGTD1" class="respect" style="overflow: scroll;">
+                        <div class="disgline">
+                            <div id="disgname1">Name</div>
+                            <input id="disgnamein1" />
+                        </div>
+
+                        <div class="disgline">
+                            <div id="disglevel1">Level</div>
+                            <div id="disglevelin1" data-win-control="WinJS.UI.Rating"></div>
+                        </div>
+
+                        <div class="disgline">
+                            <div id="disgloc1" class="disgline">Location</div>
+                            <select id="disglocin1">
+                            </select>
+                        </div>
+
+                        <div class="disgline">
+                            <img class="disgtimgimg" src="images/calendar.png" />
+                            <div data-win-control="WinJS.UI.DatePicker" id="disgdate1"></div>
+                            <div id="disgtime1" data-win-control="WinJS.UI.TimePicker"></div>
+                        </div>
+
+                        <div class="disgline">
+                            <div id="disgimg1">
+                                Image
+                            <img id="disgimgdis1" src="images/time.png" />
+                            </div>
+                            <select id="disgimgin1">
+                            </select>
+                        </div>
+                        <div class="disgline">
+                            <div id="disgfile1">File</div>
+                            <select id="disgfilein1">
+                            </select>
+                        </div>
+                        <div id="disgrem1" class="disgline">Remark</div>
+                        <textarea id="disgremin1"></textarea>
+                        <div id="disgok1">OK</div>
+                        <div id="disgcan1">CANCEL</div>
+                        <div id="disgdele1">DELETE</div>
+                    </div>
+
+
+
+                </section>
+
+                <section data-background="#f6821d">
+                    <!--按文件夹浏览-->
+                    <div id="fileview" class="respect">
+                        <div id="fvhead">FileView</div>
+                        <div id="fvb0" class="fvb"></div>
+                        <div id="fvb1" class="fvb"></div>
+                        <div id="fvb2" class="fvb"></div>
+                        <div id="fvb3" class="fvb"></div>
+                        <div id="fvb4" class="fvb"></div>
+                        <div id="fvb5" class="fvb"></div>
+
+                    </div>
+                    <div id="fvdis" class="respect">
+                        <div id="fvdishead"></div>
+                        <div id="fvd0" class="fvd"></div>
+                        <div id="fvd1" class="fvd"></div>
+                        <div id="fvd2" class="fvd"></div>
+                        <div id="fvd3" class="fvd"></div>
+                        <div id="fvd4" class="fvd"></div>
+                        <div id="fvd5" class="fvd"></div>
+                    </div>
+                    <div id="addfile" class="respect">
+                        <div id="afhead">Add File</div>
+                        <input id="addfilein" />
+                        <div id="afok">OK</div>
+                        <div id="afcan">CANCEL</div>
+                    </div>
+
+                    <!--GTD展示编辑框2-->
+                    <div id="disGTD2" class="respect" style="overflow: scroll;">
+                        <div class="disgline">
+                            <div id="disgname2">Name</div>
+                            <input id="disgnamein2" />
+                        </div>
+                        <div class="disgline">
+                            <div id="disglevel2">Level</div>
+                            <div id="disglevelin2" data-win-control="WinJS.UI.Rating"></div>
+                        </div>
+
+                        <div class="disgline">
+                            <div id="disgloc2" class="disgline">Location</div>
+                            <select id="disglocin2">
+                            </select>
+                        </div>
+
+                        <div class="disgline">
+                            <img class="disgtimgimg" src="images/calendar.png" />
+                            <div data-win-control="WinJS.UI.DatePicker" id="disgdate2"></div>
+                            <div id="disgtime2" data-win-control="WinJS.UI.TimePicker"></div>
+                        </div>
+
+                        <div class="disgline">
+                            <div id="disgimg2">
+                                Image
+                            <img id="disgimgdis2" src="images/time.png" />
+                            </div>
+                            <select id="disgimgin2">
+                            </select>
+                        </div>
+                        <div class="disgline">
+                            <div id="disgfile2">File</div>
+                            <select id="disgfilein2">
+                            </select>
+                        </div>
+                        <div id="disgrem2" class="disgline">Remark</div>
+                        <textarea id="disgremin2"></textarea>
+                        <div id="disgok2">OK</div>
+                        <div id="disgcan2">CANCEL</div>
+                        <div id="disgdele2">DELETE</div>
+                    </div>
+                </section>
+
+            </section>
+
+        </div>
+
+    </div>
+
+    <script src="lib/js/head.min.js"></script>
+    <script src="js/reveal.js"></script>
+
+    <script>
+
+        // Full list of configuration options available here:
+        // https://github.com/hakimel/reveal.js#configuration
+        Reveal.initialize({
+            controls: true,
+            progress: true,
+            history: true,
+            center: true,
+
+            theme: Reveal.getQueryHash().theme, // available themes are in /css/theme
+            transition: Reveal.getQueryHash().transition || 'cube', // default/cube/page/concave/zoom/linear/fade/none
+
+            // Optional libraries used to extend on reveal.js
+            dependencies: [
+                { src: 'lib/js/classList.js', condition: function () { return !document.body.classList; } },
+                { src: 'plugin/zoom-js/zoom.js', async: true, condition: function () { return !!document.body.classList; } },
+                { src: 'plugin/notes/notes.js', async: true, condition: function () { return !!document.body.classList; } }
+                // { src: 'plugin/search/search.js', async: true, condition: function() { return !!document.body.classList; } }
+                // { src: 'plugin/remotes/remotes.js', async: true, condition: function() { return !!document.body.classList; } }
+            ]
+        });
+
+    </script>
+</body>
+</html>

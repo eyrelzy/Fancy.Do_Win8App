@@ -1,0 +1,355 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>EYRE-PC</Machine>
+    <WindowsUser>eyre</WindowsUser>
+    <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="F:\物联网\大二下\软件开发实践\上交\Fancy.do\Fancy.do\bin\Debug\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="F:\物联网\大二下\软件开发实践\上交\Fancy.do\Fancy.do\NotificationsExtensions.winmd">
+      <PackagePath>NotificationsExtensions.winmd</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\物联网\大二下\软件开发实践\上交\Fancy.do\Fancy.do\.gitignore">
+      <PackagePath>.gitignore</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\物联网\大二下\软件开发实践\上交\Fancy.do\Fancy.do\.travis.yml">
+      <PackagePath>.travis.yml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\物联网\大二下\软件开发实践\上交\Fancy.do\Fancy.do\css\print\paper.css">
+      <PackagePath>css\print\paper.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\物联网\大二下\软件开发实践\上交\Fancy.do\Fancy.do\css\print\pdf.css">
+      <PackagePath>css\print\pdf.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\物联网\大二下\软件开发实践\上交\Fancy.do\Fancy.do\css\reveal.css">
+      <PackagePath>css\reveal.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\物联网\大二下\软件开发实践\上交\Fancy.do\Fancy.do\css\reveal.min.css">
+      <PackagePath>css\reveal.min.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\物联网\大二下\软件开发实践\上交\Fancy.do\Fancy.do\css\T_T.css">
+      <PackagePath>css\T_T.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\物联网\大二下\软件开发实践\上交\Fancy.do\Fancy.do\css\theme\beige.css">
+      <PackagePath>css\theme\beige.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\物联网\大二下\软件开发实践\上交\Fancy.do\Fancy.do\css\theme\default.css">
+      <PackagePath>css\theme\default.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\物联网\大二下\软件开发实践\上交\Fancy.do\Fancy.do\css\theme\moon.css">
+      <PackagePath>css\theme\moon.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\物联网\大二下\软件开发实践\上交\Fancy.do\Fancy.do\css\theme\night.css">
+      <PackagePath>css\theme\night.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\物联网\大二下\软件开发实践\上交\Fancy.do\Fancy.do\css\theme\serif.css">
+      <PackagePath>css\theme\serif.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\物联网\大二下\软件开发实践\上交\Fancy.do\Fancy.do\css\theme\simple.css">
+      <PackagePath>css\theme\simple.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\物联网\大二下\软件开发实践\上交\Fancy.do\Fancy.do\css\theme\sky.css">
+      <PackagePath>css\theme\sky.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\物联网\大二下\软件开发实践\上交\Fancy.do\Fancy.do\css\theme\solarized.css">
+      <PackagePath>css\theme\solarized.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\物联网\大二下\软件开发实践\上交\Fancy.do\Fancy.do\css\default.css">
+      <PackagePath>css\default.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\物联网\大二下\软件开发实践\上交\Fancy.do\Fancy.do\lib\css\zenburn.css">
+      <PackagePath>lib\css\zenburn.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\物联网\大二下\软件开发实践\上交\Fancy.do\Fancy.do\css\theme\README.md">
+      <PackagePath>css\theme\README.md</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\物联网\大二下\软件开发实践\上交\Fancy.do\Fancy.do\plugin\markdown\example.md">
+      <PackagePath>plugin\markdown\example.md</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\物联网\大二下\软件开发实践\上交\Fancy.do\Fancy.do\README.md">
+      <PackagePath>README.md</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\物联网\大二下\软件开发实践\上交\Fancy.do\Fancy.do\css\theme\source\beige.scss">
+      <PackagePath>css\theme\source\beige.scss</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\物联网\大二下\软件开发实践\上交\Fancy.do\Fancy.do\css\theme\source\default.scss">
+      <PackagePath>css\theme\source\default.scss</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\物联网\大二下\软件开发实践\上交\Fancy.do\Fancy.do\css\theme\source\moon.scss">
+      <PackagePath>css\theme\source\moon.scss</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\物联网\大二下\软件开发实践\上交\Fancy.do\Fancy.do\css\theme\source\night.scss">
+      <PackagePath>css\theme\source\night.scss</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\物联网\大二下\软件开发实践\上交\Fancy.do\Fancy.do\css\theme\source\serif.scss">
+      <PackagePath>css\theme\source\serif.scss</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\物联网\大二下\软件开发实践\上交\Fancy.do\Fancy.do\css\theme\source\simple.scss">
+      <PackagePath>css\theme\source\simple.scss</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\物联网\大二下\软件开发实践\上交\Fancy.do\Fancy.do\css\theme\source\sky.scss">
+      <PackagePath>css\theme\source\sky.scss</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\物联网\大二下\软件开发实践\上交\Fancy.do\Fancy.do\css\theme\source\solarized.scss">
+      <PackagePath>css\theme\source\solarized.scss</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\物联网\大二下\软件开发实践\上交\Fancy.do\Fancy.do\css\theme\template\mixins.scss">
+      <PackagePath>css\theme\template\mixins.scss</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\物联网\大二下\软件开发实践\上交\Fancy.do\Fancy.do\css\theme\template\settings.scss">
+      <PackagePath>css\theme\template\settings.scss</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\物联网\大二下\软件开发实践\上交\Fancy.do\Fancy.do\css\theme\template\theme.scss">
+      <PackagePath>css\theme\template\theme.scss</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\物联网\大二下\软件开发实践\上交\Fancy.do\Fancy.do\default.html">
+      <PackagePath>default.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\物联网\大二下\软件开发实践\上交\Fancy.do\Fancy.do\plugin\markdown\example.html">
+      <PackagePath>plugin\markdown\example.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\物联网\大二下\软件开发实践\上交\Fancy.do\Fancy.do\plugin\notes-server\notes.html">
+      <PackagePath>plugin\notes-server\notes.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\物联网\大二下\软件开发实践\上交\Fancy.do\Fancy.do\plugin\notes\notes.html">
+      <PackagePath>plugin\notes\notes.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\物联网\大二下\软件开发实践\上交\Fancy.do\Fancy.do\plugin\postmessage\example.html">
+      <PackagePath>plugin\postmessage\example.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\物联网\大二下\软件开发实践\上交\Fancy.do\Fancy.do\Gruntfile.js">
+      <PackagePath>Gruntfile.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\物联网\大二下\软件开发实践\上交\Fancy.do\Fancy.do\js\default.js">
+      <PackagePath>js\default.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\物联网\大二下\软件开发实践\上交\Fancy.do\Fancy.do\js\jquery-1.8.2.min.js">
+      <PackagePath>js\jquery-1.8.2.min.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\物联网\大二下\软件开发实践\上交\Fancy.do\Fancy.do\js\jquery.hammer.js">
+      <PackagePath>js\jquery.hammer.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\物联网\大二下\软件开发实践\上交\Fancy.do\Fancy.do\js\reveal.js">
+      <PackagePath>js\reveal.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\物联网\大二下\软件开发实践\上交\Fancy.do\Fancy.do\js\reveal.min.js">
+      <PackagePath>js\reveal.min.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\物联网\大二下\软件开发实践\上交\Fancy.do\Fancy.do\js\script.js">
+      <PackagePath>js\script.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\物联网\大二下\软件开发实践\上交\Fancy.do\Fancy.do\js\T-T.js">
+      <PackagePath>js\T-T.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\物联网\大二下\软件开发实践\上交\Fancy.do\Fancy.do\js\temp.js">
+      <PackagePath>js\temp.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\物联网\大二下\软件开发实践\上交\Fancy.do\Fancy.do\lib\js\classList.js">
+      <PackagePath>lib\js\classList.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\物联网\大二下\软件开发实践\上交\Fancy.do\Fancy.do\lib\js\head.min.js">
+      <PackagePath>lib\js\head.min.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\物联网\大二下\软件开发实践\上交\Fancy.do\Fancy.do\lib\js\html5shiv.js">
+      <PackagePath>lib\js\html5shiv.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\物联网\大二下\软件开发实践\上交\Fancy.do\Fancy.do\plugin\highlight\highlight.js">
+      <PackagePath>plugin\highlight\highlight.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\物联网\大二下\软件开发实践\上交\Fancy.do\Fancy.do\plugin\markdown\markdown.js">
+      <PackagePath>plugin\markdown\markdown.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\物联网\大二下\软件开发实践\上交\Fancy.do\Fancy.do\plugin\markdown\marked.js">
+      <PackagePath>plugin\markdown\marked.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\物联网\大二下\软件开发实践\上交\Fancy.do\Fancy.do\plugin\multiplex\client.js">
+      <PackagePath>plugin\multiplex\client.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\物联网\大二下\软件开发实践\上交\Fancy.do\Fancy.do\plugin\multiplex\index.js">
+      <PackagePath>plugin\multiplex\index.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\物联网\大二下\软件开发实践\上交\Fancy.do\Fancy.do\plugin\multiplex\master.js">
+      <PackagePath>plugin\multiplex\master.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\物联网\大二下\软件开发实践\上交\Fancy.do\Fancy.do\plugin\notes-server\client.js">
+      <PackagePath>plugin\notes-server\client.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\物联网\大二下\软件开发实践\上交\Fancy.do\Fancy.do\plugin\notes-server\index.js">
+      <PackagePath>plugin\notes-server\index.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\物联网\大二下\软件开发实践\上交\Fancy.do\Fancy.do\plugin\notes\notes.js">
+      <PackagePath>plugin\notes\notes.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\物联网\大二下\软件开发实践\上交\Fancy.do\Fancy.do\plugin\postmessage\postmessage.js">
+      <PackagePath>plugin\postmessage\postmessage.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\物联网\大二下\软件开发实践\上交\Fancy.do\Fancy.do\plugin\print-pdf\print-pdf.js">
+      <PackagePath>plugin\print-pdf\print-pdf.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\物联网\大二下\软件开发实践\上交\Fancy.do\Fancy.do\plugin\remotes\remotes.js">
+      <PackagePath>plugin\remotes\remotes.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\物联网\大二下\软件开发实践\上交\Fancy.do\Fancy.do\plugin\search\search.js">
+      <PackagePath>plugin\search\search.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\物联网\大二下\软件开发实践\上交\Fancy.do\Fancy.do\plugin\zoom-js\zoom.js">
+      <PackagePath>plugin\zoom-js\zoom.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\物联网\大二下\软件开发实践\上交\Fancy.do\Fancy.do\images\addnew.png">
+      <PackagePath>images\addnew.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\物联网\大二下\软件开发实践\上交\Fancy.do\Fancy.do\images\book.png">
+      <PackagePath>images\book.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\物联网\大二下\软件开发实践\上交\Fancy.do\Fancy.do\images\calendar.png">
+      <PackagePath>images\calendar.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\物联网\大二下\软件开发实践\上交\Fancy.do\Fancy.do\images\day.png">
+      <PackagePath>images\day.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\物联网\大二下\软件开发实践\上交\Fancy.do\Fancy.do\images\grade.png">
+      <PackagePath>images\grade.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\物联网\大二下\软件开发实践\上交\Fancy.do\Fancy.do\images\heart.png">
+      <PackagePath>images\heart.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\物联网\大二下\软件开发实践\上交\Fancy.do\Fancy.do\images\house.png">
+      <PackagePath>images\house.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\物联网\大二下\软件开发实践\上交\Fancy.do\Fancy.do\images\key.png">
+      <PackagePath>images\key.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\物联网\大二下\软件开发实践\上交\Fancy.do\Fancy.do\images\light.png">
+      <PackagePath>images\light.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\物联网\大二下\软件开发实践\上交\Fancy.do\Fancy.do\images\logo.png">
+      <PackagePath>images\logo.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\物联网\大二下\软件开发实践\上交\Fancy.do\Fancy.do\images\meal.png">
+      <PackagePath>images\meal.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\物联网\大二下\软件开发实践\上交\Fancy.do\Fancy.do\images\meeting.png">
+      <PackagePath>images\meeting.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\物联网\大二下\软件开发实践\上交\Fancy.do\Fancy.do\images\mess.png">
+      <PackagePath>images\mess.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\物联网\大二下\软件开发实践\上交\Fancy.do\Fancy.do\images\office.png">
+      <PackagePath>images\office.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\物联网\大二下\软件开发实践\上交\Fancy.do\Fancy.do\images\ok.png">
+      <PackagePath>images\ok.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\物联网\大二下\软件开发实践\上交\Fancy.do\Fancy.do\images\phone.png">
+      <PackagePath>images\phone.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\物联网\大二下\软件开发实践\上交\Fancy.do\Fancy.do\images\smalllogo.png">
+      <PackagePath>images\smalllogo.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\物联网\大二下\软件开发实践\上交\Fancy.do\Fancy.do\images\splashscreen.png">
+      <PackagePath>images\splashscreen.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\物联网\大二下\软件开发实践\上交\Fancy.do\Fancy.do\images\storelogo.png">
+      <PackagePath>images\storelogo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\物联网\大二下\软件开发实践\上交\Fancy.do\Fancy.do\images\time.png">
+      <PackagePath>images\time.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\物联网\大二下\软件开发实践\上交\Fancy.do\Fancy.do\images\watch.png">
+      <PackagePath>images\watch.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\物联网\大二下\软件开发实践\上交\Fancy.do\Fancy.do\img\aniversary.png">
+      <PackagePath>img\aniversary.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\物联网\大二下\软件开发实践\上交\Fancy.do\Fancy.do\img\banquet.png">
+      <PackagePath>img\banquet.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\物联网\大二下\软件开发实践\上交\Fancy.do\Fancy.do\img\custom.png">
+      <PackagePath>img\custom.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\物联网\大二下\软件开发实践\上交\Fancy.do\Fancy.do\img\finalsmall.png">
+      <PackagePath>img\finalsmall.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\物联网\大二下\软件开发实践\上交\Fancy.do\Fancy.do\img\finalsplash.png">
+      <PackagePath>img\finalsplash.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\物联网\大二下\软件开发实践\上交\Fancy.do\Fancy.do\img\finalsquare.png">
+      <PackagePath>img\finalsquare.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\物联网\大二下\软件开发实践\上交\Fancy.do\Fancy.do\img\finalwide.png">
+      <PackagePath>img\finalwide.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\物联网\大二下\软件开发实践\上交\Fancy.do\Fancy.do\img\games.png">
+      <PackagePath>img\games.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\物联网\大二下\软件开发实践\上交\Fancy.do\Fancy.do\img\gift.png">
+      <PackagePath>img\gift.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\物联网\大二下\软件开发实践\上交\Fancy.do\Fancy.do\img\homework.png">
+      <PackagePath>img\homework.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\物联网\大二下\软件开发实践\上交\Fancy.do\Fancy.do\img\jizhang.png">
+      <PackagePath>img\jizhang.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\物联网\大二下\软件开发实践\上交\Fancy.do\Fancy.do\img\labe.png">
+      <PackagePath>img\labe.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\物联网\大二下\软件开发实践\上交\Fancy.do\Fancy.do\img\music.png">
+      <PackagePath>img\music.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\物联网\大二下\软件开发实践\上交\Fancy.do\Fancy.do\img\special.png">
+      <PackagePath>img\special.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\物联网\大二下\软件开发实践\上交\Fancy.do\Fancy.do\img\waterflower.png">
+      <PackagePath>img\waterflower.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\物联网\大二下\软件开发实践\上交\Fancy.do\Fancy.do\lib\font\league_gothic-webfont.eot">
+      <PackagePath>lib\font\league_gothic-webfont.eot</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\物联网\大二下\软件开发实践\上交\Fancy.do\Fancy.do\lib\font\league_gothic-webfont.svg">
+      <PackagePath>lib\font\league_gothic-webfont.svg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\物联网\大二下\软件开发实践\上交\Fancy.do\Fancy.do\lib\font\league_gothic-webfont.ttf">
+      <PackagePath>lib\font\league_gothic-webfont.ttf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\物联网\大二下\软件开发实践\上交\Fancy.do\Fancy.do\lib\font\league_gothic-webfont.woff">
+      <PackagePath>lib\font\league_gothic-webfont.woff</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\物联网\大二下\软件开发实践\上交\Fancy.do\Fancy.do\lib\font\league_gothic_license">
+      <PackagePath>lib\font\league_gothic_license</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\物联网\大二下\软件开发实践\上交\Fancy.do\Fancy.do\LICENSE">
+      <PackagePath>LICENSE</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\物联网\大二下\软件开发实践\上交\Fancy.do\Fancy.do\package.json">
+      <PackagePath>package.json</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\物联网\大二下\软件开发实践\上交\Fancy.do\Fancy.do\test.txt">
+      <PackagePath>test.txt</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\物联网\大二下\软件开发实践\上交\Fancy.do\Fancy.do\bin\Debug\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\Microsoft.WinJS.1.0\1.0\">
+      <Name>Microsoft.WinJS.1.0</Name>
+      <Version>1.0.8514.0</Version>
+      <Architecture>Neutral</Architecture>
+      <FrameworkIdentity>Name=Microsoft.WinJS.1.0, MinVersion=1.0.8514.0</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\Microsoft.WinJS.1.0\1.0\Microsoft.WinJS.1.0.appx</AppxLocation>
+    </ResolvedSDKReference>
+  </ItemGroup>
+</Project>

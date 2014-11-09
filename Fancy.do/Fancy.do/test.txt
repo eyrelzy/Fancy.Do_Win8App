@@ -1,0 +1,20 @@
+function updateDynamicMetro(info) {
+    Windows.UI.Notifications.TileUpdateManager.createTileUpdaterForApplication().enableNotificationQueue(true);
+    var Notifications = Windows.UI.Notifications;
+    var tileXml = Notifications.TileUpdateManager.getTemplateContent(Notifications.TileTemplateType.tileWideSmallImageAndText01);
+    var tileTextAttributes = tileXml.getElementsByTagName("text");
+    var tileImageAttributes = tileXml.getElementsByTagName("image");
+    for (var i = 0; i < info.length; i++) {
+        //tileTextAttributes[0].appendChild(tileXml.createTextNode(info[i].text));
+        tileTextAttributes[0].innerText = info[i].text;
+        tileImageAttributes[0].setAttribute("src", info[i].img);
+
+        var tileNotification = new Notifications.TileNotification(tileXml);
+        Windows.UI.Notifications.TileUpdateManager.createTileUpdaterForApplication().update(tileNotification);
+    }
+    
+    var num = NotificationsExtensions.BadgeContent.BadgeNumericNotificationContent(info.length);
+    var tileNotification = num.createNotification();
+    Windows.UI.Notifications.BadgeUpdateManager.createBadgeUpdaterForApplication().update(tileNotification);
+
+}

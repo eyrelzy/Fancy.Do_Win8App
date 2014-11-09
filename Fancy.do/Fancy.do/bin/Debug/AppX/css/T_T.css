@@ -1,0 +1,433 @@
+﻿/*每个面的总布局*/
+.respect {
+    width:700px;
+    height:700px;
+    position:relative;
+    margin:auto;
+}
+/*添加GTD条目的布局*/
+.block,.addnew {
+    width:32%;
+    height:32%;
+    float:left;
+    margin:0.66%;
+    line-height:224px; 
+    text-align:center;
+}
+.block {
+    background-color:#ff245a;
+}
+/*新建窗口的布局*/
+#manageGTD {
+    display:none;
+}
+.magline {
+    height:14%;
+    width:99%;
+    margin:0.5%;
+    float:left;
+    background-color:#a00084;
+    line-height:100px; 
+}
+.magtimgimg{
+    height:30%;
+    margin:0.5%;
+    float:left;
+}
+#magdate {
+    /*display:none;*/
+    height:90%;
+    float:left;
+    margin-top:0.5%;
+}
+
+#magtime {
+    height:90%;
+    float:left;
+    margin-top:0.5%;
+    margin-left:5%;
+}
+#magname,#magloc,#magimg ,#magfile,#maglevel{
+    height:14%;
+    width:32.3%;
+    float:left;
+    margin:0.5%;
+    background-color:#a00084;
+}
+#maglocin{
+    width:65%;
+    height:90%;
+    margin:0.5%;
+    display:block;
+    font-size:50px;
+}
+#maglevelin {
+    width:64%;
+    height:14%;
+    margin:0.5%;
+    float:left;
+}
+#magimgin ,#magfilein,#magnamein{
+    width:65%;
+    height:90%;
+    margin:0.5%;
+    display:block;
+    font-size:50px;
+}
+#magremin {
+    width:94%;
+    height:40%;
+    font-size:20px;
+    float:left;
+    display:none;
+}
+#magok,#magcan {
+    float:left;
+    height:9%;
+    width:49%;
+    margin:0.5%;
+    background-color:#ff6a00;
+    line-height:50px; 
+    text-align:center;
+}
+#magimg {
+    height:95%;
+}
+#magimgdis {
+    height:90%;
+ 
+}
+/*编辑展示窗口布局*/
+#disGTD,#disGTD1,#disGTD2 {
+    display:none;
+}
+.disgline {
+    height:14%;
+    width:99%;
+    margin:0.5%;
+    float:left;
+    background-color:#a00084;
+        line-height:100px; 
+
+}
+.disgtimgimg{
+    height:30%;
+    margin:0.5%;
+    float:left;
+}
+#disgdate,#disgdate1,#disgdate2, #disgtime,#disgtime1,#disgtime2 {
+    height:90%;
+    float:left;
+    margin:0.5%;
+}
+#disgname,#disgname1,#disgname2,#disgloc,#disgloc1,#disgloc2,#disgimg ,#disgimg1,#disgimg2,#disgfile,#disgfile1,#disgfile2,#disglevel,#disglevel1,#disglevel2{
+    height:14%;
+    width:32.3%;
+    float:left;
+    margin:0.5%;
+    background-color:#a00084;
+    
+}
+#disglocin,#disglocin1,#disglocin2{
+    width:65%;
+    height:95%;
+    margin:0.5%;
+    display:block;
+    font-size:50px;
+}
+#disglevelin,#disglevelin1,#disglevelin2 {
+    width:64%;
+    height:14%;
+    margin:0.5%;
+    float:left;
+}
+#disgimgin,#disgimgin1,#disgimgin2 ,#disgfilein,#disgfilein1,#disgfilein2,#disgnamein,#disgnamein1,#disgnamein2{
+    width:65%;
+    height:90%;
+    margin:0.5%;
+    display:block;
+    font-size:50px;
+}
+#disgremin,#disgremin1,#disgremin2 {
+    width:94%;
+    height:40%;
+    font-size:20px;
+    float:left;
+    display:none;
+}
+#disgok,#disgok1,#disgok2,#disgcan,#disgcan1,#disgcan2,#disgdele,#disgdele1,#disgdele2{
+    float:left;
+    height:9%;
+    width:32%;
+    margin:0.5%;
+    background-color:#ff6a00;
+    line-height:50px; 
+    text-align:center;
+}
+#disgimg,#disgimg1,#disgimg2 {
+    height:95%;
+}
+#disgimgdis,#disgimgdis1,#disgimgdis2 {
+    height:90%;
+}
+/*按时间查看的布局*/
+.tvline {
+    width:100%;
+    height:24.5%;
+    border:0;
+    border-bottom:2px;
+    border-style:solid;
+    border-color:black;
+    font-size:70px;
+    cursor:pointer;
+}
+#tvtoday, #tvfutu {
+    direction: rtl;
+}
+#tvhis {
+    border-bottom:0px;
+}
+#tvdis {
+    width:99%;
+    height:66%;
+    display:none;
+}
+.tvblock {
+    width:32%;
+    height:48.6%;
+    float:left;
+    margin:0.66%;
+    background-color:#ff6a00;
+}
+.tvb {
+    width:32%;
+    height:32%;
+    float:left;
+    margin:0.66%;
+    background-color:#ff6a00;
+    display:none;
+}
+/*添加模板的布局*/
+
+#adsok {
+    float:left;
+    height:15%;
+    width:99%;
+    margin:0.5%;
+    background-color:#ff6a00;
+    line-height:105px; 
+    text-align:center;
+}
+#adsimg, #adsname {
+    height:95%;
+    width:32.3%;
+    float:left;
+    background-color:#a805ff;
+}
+#adsimgdis {
+    height:95%;
+}
+#adsimgin, #adsnamein {
+    width:66%;
+    height:90%;
+    display:block;
+    font-size:50px;
+}
+
+#adshead {
+    height:45%;
+    width:90%;
+    font-size:70px;
+}
+.adsline {
+    float:left;
+    height:15%;
+    width:99%;
+    margin:0.5%;
+    background-color:#a805ff;
+    line-height:105px; 
+    padding:0.2%;
+}
+/*删除模板布局*/
+#delestyle {
+    display:none;
+}
+.delediv {
+    width:100%;
+    height:25%;
+    border:0;
+    border-bottom:2px;
+    border-color:black;
+    border-style:solid;
+    font-size:50px;
+}
+.delebutton {
+    width:0%;
+    height:25%;
+    background-color:#ff6a00;
+    float:right;
+    line-height:180px; 
+    text-align:center;
+}
+.deleimg {
+    height:13%;
+    display:block;
+}
+/*按地点浏览的布局*/
+#locview {
+}
+#lvdis{
+    display:none;
+}
+.lvb {
+    width:32.3%;
+    height:32.3%;
+    margin:0.5%;
+    background-color:#ff00dc;
+    float:left;
+    line-height:180px; 
+    text-align:center;
+}
+.lvd {
+    width:32.3%;
+    height:32.3%;
+    margin:0.5%;
+    background-color:#ffa400;
+    float:left;
+
+}
+#lvhead,#lvdishead {
+    width:100%;
+    height:25%;
+    border:0;
+    margin:0;
+    font-size:70px;
+
+}
+
+/*添加地点*/
+#alhead {
+    width:100%;
+    height:25%;
+    border:0;
+    margin:0;
+    font-size:70px;
+
+}
+#addloc {
+    display:none;
+}
+#alok ,#alcan{
+
+    font-size:60px;
+    float:left;
+    height:39%;
+    width:49%;
+    margin:0.5%;
+    background-color:#ff6a00;
+    line-height:224px; 
+    text-align:center;
+}
+#addlocin {
+    width:98%;
+    height:20%;
+    margin:0.5%;
+    display:block;
+    font-size:60px;
+}
+/*按文件夹浏览*/
+#fileview{
+}
+#fvdis {
+    display:none;
+}
+.fvb{
+    width:32.3%;
+    height:32.3%;
+    margin:0.5%;
+    background-color:#ffd800;
+    float:left;
+    line-height:180px; 
+    text-align:center;
+}
+.fvd {
+    width:32.3%;
+    height:32.3%;
+    margin:0.5%;
+    background-color:#ffd800;
+    float:left;
+}
+#fvhead ,#fvdishead{
+    width:100%;
+    height:25%;
+    border:0;
+    margin:0;
+    font-size:70px;
+
+}
+/*添加文件夹*/
+#afhead {
+    width:100%;
+    height:25%;
+    border:0;
+    margin:0;
+    font-size:70px;
+
+}
+#addfile {
+    display:none;
+}
+#afok ,#afcan{
+
+    font-size:60px;
+    float:left;
+    height:39%;
+    width:49%;
+    margin:0.5%;
+    background-color:#ff6a00;
+    line-height:224px; 
+    text-align:center;
+
+}
+#addfilein {
+    width:98%;
+    height:20%;
+    margin:0.5%;
+    display:block;
+    font-size:60px;
+}
+
+/*动画列表*/
+@keyframes tvout {
+    0% {
+        transform: rotateX(0deg);
+    }
+    100% {
+        transform: rotateX(90deg);
+    }
+}
+@keyframes tvin {
+    0% {
+        transform: rotateX(90deg);
+    }
+    100% {
+        transform: rotateX(0deg);
+    }
+}
+@keyframes blockturning
+{
+    0%{
+        transform: rotateY(0deg);
+    }
+    50%{
+        transform: rotateY(180deg);
+
+    }
+    100%{
+        transform: rotateY(0deg);
+    }
+}
+@keyframes none
+{
+
+}

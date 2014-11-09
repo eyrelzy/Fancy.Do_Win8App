@@ -1,0 +1,30 @@
+c:\users\eyre\documents\visual studio 2012\Projects\Fancy.do\Fancy.do\bin\Debug\resources.pri
+c:\users\eyre\documents\visual studio 2012\Projects\Fancy.do\Fancy.do\bin\Debug\AppxManifest.xml
+c:\users\eyre\documents\visual studio 2012\Projects\Fancy.do\Fancy.do\bin\Debug\Fancy.do.build.appxrecipe
+c:\users\eyre\documents\visual studio 2012\Projects\Fancy.do\Fancy.do\bld\Debug\priconfig.xml.intermediate
+c:\users\eyre\documents\visual studio 2012\Projects\Fancy.do\Fancy.do\bld\Debug\layout.resfiles.intermediate
+c:\users\eyre\documents\visual studio 2012\Projects\Fancy.do\Fancy.do\bld\Debug\resources.resfiles.intermediate
+c:\users\eyre\documents\visual studio 2012\Projects\Fancy.do\Fancy.do\bld\Debug\pri.resfiles.intermediate
+c:\users\eyre\documents\visual studio 2012\Projects\Fancy.do\Fancy.do\bld\Debug\priconfig.xml
+c:\users\eyre\documents\visual studio 2012\Projects\Fancy.do\Fancy.do\bld\Debug\layout.resfiles
+c:\users\eyre\documents\visual studio 2012\Projects\Fancy.do\Fancy.do\bld\Debug\resources.resfiles
+c:\users\eyre\documents\visual studio 2012\Projects\Fancy.do\Fancy.do\bld\Debug\pri.resfiles
+c:\users\eyre\documents\visual studio 2012\Projects\Fancy.do\Fancy.do\bld\Debug\LanguageQualifiers.txt
+c:\users\eyre\documents\visual studio 2012\Projects\Fancy.do\Fancy.do\bld\Debug\ProjectArchitectures.txt
+C:\Users\eyre\Documents\Visual Studio 2012\Projects\Fancy.do\Fancy.do\bin\Debug\NotificationsExtensions.winmd
+C:\Users\eyre\Documents\Visual Studio 2012\Projects\Fancy.do\Fancy.do\bld\Debug\Fancy.do.jsprojResolveAssemblyReference.cache
+F:\物联网\大二下\软件开发实践\上交\Fancy.do\Fancy.do\bin\Debug\resources.pri
+F:\物联网\大二下\软件开发实践\上交\Fancy.do\Fancy.do\bin\Debug\AppxManifest.xml
+F:\物联网\大二下\软件开发实践\上交\Fancy.do\Fancy.do\bin\Debug\Fancy.do.build.appxrecipe
+F:\物联网\大二下\软件开发实践\上交\Fancy.do\Fancy.do\bin\Debug\NotificationsExtensions.winmd
+F:\物联网\大二下\软件开发实践\上交\Fancy.do\Fancy.do\bld\Debug\Fancy.do.jsprojResolveAssemblyReference.cache
+F:\物联网\大二下\软件开发实践\上交\Fancy.do\Fancy.do\bld\Debug\priconfig.xml.intermediate
+F:\物联网\大二下\软件开发实践\上交\Fancy.do\Fancy.do\bld\Debug\layout.resfiles.intermediate
+F:\物联网\大二下\软件开发实践\上交\Fancy.do\Fancy.do\bld\Debug\resources.resfiles.intermediate
+F:\物联网\大二下\软件开发实践\上交\Fancy.do\Fancy.do\bld\Debug\pri.resfiles.intermediate
+F:\物联网\大二下\软件开发实践\上交\Fancy.do\Fancy.do\bld\Debug\priconfig.xml
+F:\物联网\大二下\软件开发实践\上交\Fancy.do\Fancy.do\bld\Debug\layout.resfiles
+F:\物联网\大二下\软件开发实践\上交\Fancy.do\Fancy.do\bld\Debug\resources.resfiles
+F:\物联网\大二下\软件开发实践\上交\Fancy.do\Fancy.do\bld\Debug\pri.resfiles
+F:\物联网\大二下\软件开发实践\上交\Fancy.do\Fancy.do\bld\Debug\LanguageQualifiers.txt
+F:\物联网\大二下\软件开发实践\上交\Fancy.do\Fancy.do\bld\Debug\ProjectArchitectures.txt

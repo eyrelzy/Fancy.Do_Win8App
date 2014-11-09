@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Package xmlns="http://schemas.microsoft.com/appx/2010/manifest">
+  <Identity Name="227524a1-0a43-4fac-ac93-2b594c19ed79" Version="1.0.0.0" Publisher="CN=eyre" />
+  <Properties>
+    <DisplayName>Fancy.do</DisplayName>
+    <PublisherDisplayName>eyre</PublisherDisplayName>
+    <Logo>images\storelogo.png</Logo>
+  </Properties>
+  <Prerequisites>
+    <OSMinVersion>6.2.1</OSMinVersion>
+    <OSMaxVersionTested>6.2.1</OSMaxVersionTested>
+  </Prerequisites>
+  <Resources>
+    <Resource Language="x-generate" />
+  </Resources>
+  <Applications>
+    <Application Id="App" StartPage="default.html">
+      <VisualElements DisplayName="Fancy.do" Logo="img\finalsquare.png" SmallLogo="img\finalsmall.png" Description="Fancy.do" ForegroundText="light" BackgroundColor="#009aac" ToastCapable="true">
+        <DefaultTile ShowName="allLogos" WideLogo="img\finalwide.png" />
+        <SplashScreen Image="img\finalsplash.png" BackgroundColor="#009aac" />
+        <InitialRotationPreference>
+          <Rotation Preference="portrait" />
+          <Rotation Preference="landscape" />
+          <Rotation Preference="portraitFlipped" />
+          <Rotation Preference="landscapeFlipped" />
+        </InitialRotationPreference>
+      </VisualElements>
+    </Application>
+  </Applications>
+  <Capabilities>
+    <Capability Name="internetClient" />
+  </Capabilities>
+</Package>
